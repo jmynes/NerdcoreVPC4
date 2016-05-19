@@ -1,6 +1,6 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+/* http: //meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -16,38 +16,464 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-    display: block;
+  display: block;
 }
 body {
-    line-height: 1.3;
+  line-height: 1.3;
 }
 ol, ul {
-    list-style: none;
+  list-style: none;
 }
 blockquote, q {
-    quotes: none;
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
+blockquote: before, blockquote: after,
+q: before, q: after {
+  content: '';
+  content: none;
 }
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* end CSS Reset */
 
 /* My CSS */
 
+body {
+  font-family: 'Droid Sans', sans-serif;
+  background: #FFF
+}
+
+a: link {
+color: #000
+}
+
+a: visited {
+  color: #5E5E5E
+}
+
+h1 {
+  font-size: 4em;
+  padding-top: 5px;
+  width: 100%;
+  text-align: center;
+  line-height: .7;
+  padding-top: 36px;
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 1vw
+}
+
+h2 {
+  font-size: 4vw;
+}
+
+h4 {
+  font-size: 2vw;
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller
+}
+
+table,th,td {
+  border: 2px solid #000;
+  border-collapse: collapse
+}
+
+/*----start-wrap-----*/
+.wrap {
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 60px
+}
+
+/*----start-header----*/
+.header {
+  background: url(img/images/djspockmckirk.jpg) no-repeat;
+  padding-bottom: 10vw;
+  background-size: cover;
+  background-position: 5% 5%;
+  font-variant: small-caps;
+  text-shadow: -1px 0 1px rgba(0,0,0,0.59);
+  -webkit-text-shadow: -1px 0 1px rgba(0,0,0,0.59);
+  -moz-text-shadow: -1px 0 1px rgba(0,0,0,0.59);
+  -o-text-shadow: -1px 0 1px rgba(0,0,0,0.59);
+  color: #FFF
+}
+
+/*----header-left----*/
+.header-left {
+  position: absolute;
+  right: 0
+}
+
+.social-banner {
+  height: 5vw;
+  min-height: 32px
+}
+
+/*---header-right----*/
+.header-right {
+  text-align: right;
+  margin: 0 auto;
+  white-space: nowrap
+}
+
+.header-right-wrapper {
+  margin: 0 auto;
+  max-width: 0;
+  display: table
+}
+
+/*----//End-header----*/
+/*---start-sub----*/
+.sub {
+  margin-top: 3em
+}
+
+.sub-left {
+  float: left;
+  width: 64%
+}
+
+.sub-right {
+  float: right;
+  width: 33%;
+  text-align: center;
+  margin-top: 1%;
+  font-variant: small-caps
+}
+
+.sub-right-grid {
+  width: 194px;
+  margin: 0 auto 2em
+}
+
+.sub-right-grid p {
+  color: #5E5E5E;
+  line-height: 1.7em;
+  font-size: .95em;
+  text-align: center
+}
+
+.sub-left-grid h3 {
+  font-size: 1.5em;
+  color: #2E2E2E
+}
+
+.sub-left-grid h3 span {
+  font-weight: 700
+}
+
+.sub-left-grid p {
+  color: #5E5E5E;
+  line-height: 1.7em;
+  font-size: .95em;
+  margin: .5em 0 1.1em;
+  text-align: justify
+}
+
+/*---//End-sub----*/
+/*----//End-wrap-----*/
+/*----start-responsive design-----*/
+@media only screen and (max-width: 1440px) and (min-width: 1366px) {
+.wrap {
+  width: 78%
+}
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1280px) {
+.wrap {
+  width: 80%
+}
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1024px) {
+.wrap {
+  width: 80%
+}
+
+.header-right {
+  margin-top: 0
+}
+
+.sub-left-grid p {
+  margin: .5em 0
+}
+
+.sub-left-grid p {
+  line-height: 1.5em
+}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+.wrap {
+  width: 85%
+}
+
+.header-right {
+  margin-top: 0
+}
+
+.sub-left-grid p {
+  margin: .5em 0
+}
+
+.sub-left-grid p {
+  line-height: 1.5em
+}
+
+.sub-left {
+  width: 54%
+}
+
+.sub-right {
+  width: 44%;
+  margin-top: 7%
+}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 640px) {
+.wrap {
+  width: 90%
+}
+
+.header-right {
+  width: 100%
+}
+
+.header-right {
+  margin-top: 0;
+  text-align: center
+}
+
+.sub-left-grid p {
+  margin: .5em 0
+}
+
+.sub-left-grid p {
+  line-height: 1.5em
+}
+
+.sub-left {
+  float: none;
+  width: 100%
+}
+
+.sub-right {
+  float: none;
+  width: 100%
+}/*---*/
+
+}
+
+@media only screen and (max-width: 640px) and (min-width: 480px) {
+.wrap {
+  width: 90%
+}
+
+.header-right {
+  width: 100%
+}
+
+.header-right {
+  margin-top: 0;
+  text-align: center
+}
+
+.sub-left-grid p {
+  margin: .5em 0
+}
+
+.sub-left-grid p {
+  line-height: 1.5em
+}
+
+.sub-left {
+  float: none;
+  width: 100%
+}
+
+.sub-right {
+  float: none;
+  width: 100%
+}/*---*/
+
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+.wrap {
+  width: 90%
+}
+
+.header-right {
+  width: 100%
+}
+
+.header-right {
+  margin-top: 0;
+  text-align: center
+}
+
+.sub-left-grid p {
+  margin: .4em 0 .7em
+}
+
+.sub-left-grid p {
+  line-height: 1.5em;
+  font-size: .875em
+}
+
+.sub-left {
+  float: none;
+  width: 100%
+}
+
+.sub-right {
+  float: none;
+  width: 100%
+}
+
+/*---*/
+.sub-left-grid h3 {
+  font-size: 1.2em
+}
+}
+
+@media only screen and (max-width: 320px) and (min-width: 240px) {
+.wrap {
+  width: 90%
+}
+
+.header-right {
+  width: 100%
+}
+
+.header-right {
+  margin-top: 0;
+  text-align: center
+}
+
+.sub-left-grid p {
+  margin: .4em 0 .7em
+}
+
+.sub-left-grid p {
+  line-height: 1.5em;
+  font-size: .875em
+}
+
+.sub-left {
+  float: none;
+  width: 100%
+}
+
+.sub-right {
+  float: none;
+  width: 100%
+}
+
+/*---*/
+.sub {
+  margin-top: 1em
+}
+
+.sub-left-grid h3 {
+  font-size: 1.05em
+}
+}
+
+.clear {
+  clear: both
+}
+
+/*----start-footer----*/
+.footer {
+  border-top: 2px solid #2E2E2E;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 12px;
+  line-height: 1.5em;
+  line-height: 50px;
+  color: #868686;
+  background: #222426
+}
+
+.footerWrap {
+  width: 75%;
+  margin: 0 auto;
+  position: relative
+}
+
+.footer-left {
+  float: left
+}
+
+.footer-right p {
+  color: #FFF
+}
+
+.footer-right {
+  float: right
+}
+
+.footer-logo {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+}
+
+/*----//End-footer----*/
+/* 
+
+Implemented some code from following: 
+http: //cssglobe.com/lab/tablecloth/
+
+/*
+
+/* 
+
+  TableCloth  
+  by Alen Grakalic, brought to you by cssglobe.com
+  
+*/
+/* general styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0
+}
+
+th,td {
+  text-align: left;
+  padding: .5em;
+  border: 1px solid #fff
+}
+
+th {
+  background: #328aa4 repeat-x;
+  color: #fff
+}
+
+td {
+  background: #e5f1f4
+}
+
+/* use this if you want to apply different styleing to empty table cells*/
+td.empty,tr.odd td.empty,tr.even td.empty {
+  background: #fff
+}
