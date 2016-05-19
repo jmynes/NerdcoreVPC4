@@ -71,18 +71,6 @@ header {
   background-position: 5% 5%;
 }
 
-/*----header-right----*/
-.header-right {
-  position: absolute;
-  right: 0;
-}
-
-.social-banner {
-  height: 5vw;
-  min-height: 32px;
-}
-/*----//End-header----*/
-
 /*---start-sub----*/
 .sub {
   margin-top: 3em;
@@ -153,10 +141,6 @@ article p {
     width: 80%;
   }
 
-  .header-right {
-    margin-top: 0;
-  }
-
   article p {
     line-height: 1.5em;
   }
@@ -165,10 +149,6 @@ article p {
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
   .wrap {
     width: 85%;
-  }
-
-  .header-right {
-    margin-top: 0;
   }
 
   article p {
@@ -188,15 +168,6 @@ article p {
 @media only screen and (max-width: 768px) and (min-width: 640px) {
   .wrap {
     width: 90%;
-  }
-
-  .header-right {
-    width: 100%;
-  }
-
-  .header-right {
-    margin-top: 0;
-    text-align: center;
   }
 
   article p {
@@ -219,15 +190,6 @@ article p {
     width: 90%;
   }
 
-  .header-right {
-    width: 100%;
-  }
-
-  .header-right {
-    margin-top: 0;
-    text-align: center;
-  }
-
   article p {
     line-height: 1.5em;
   }
@@ -246,15 +208,6 @@ article p {
 @media only screen and (max-width: 480px) and (min-width: 320px) {
   .wrap {
     width: 90%;
-  }
-
-  .header-right {
-    width: 100%;
-  }
-
-  .header-right {
-    margin-top: 0;
-    text-align: center;
   }
 
   article p {
@@ -280,15 +233,6 @@ article p {
 @media only screen and (max-width: 320px) and (min-width: 240px) {
   .wrap {
     width: 90%;
-  }
-
-  .header-right {
-    width: 100%;
-  }
-
-  .header-right {
-    margin-top: 0;
-    text-align: center;
   }
 
   article p {
