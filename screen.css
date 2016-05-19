@@ -119,6 +119,10 @@ article p {
   margin-bottom: 3em;
 }
 
+iframe {
+  width: 100%;
+}
+
 /*---end-sub----*/
 /*----end-wrap-----*/
 
