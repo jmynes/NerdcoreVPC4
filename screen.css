@@ -168,10 +168,6 @@ article p {
   }
 
   article p {
-    margin: .5em 0;
-  }
-
-  article p {
     line-height: 1.5em;
   }
 }
@@ -183,10 +179,6 @@ article p {
 
   .header-right {
     margin-top: 0;
-  }
-
-  article p {
-    margin: .5em 0;
   }
 
   article p {
@@ -215,10 +207,6 @@ article p {
   .header-right {
     margin-top: 0;
     text-align: center;
-  }
-
-  article p {
-    margin: .5em 0;
   }
 
   article p {
@@ -251,10 +239,6 @@ article p {
   }
 
   article p {
-    margin: .5em 0;
-  }
-
-  article p {
     line-height: 1.5em;
   }
 
@@ -281,10 +265,6 @@ article p {
   .header-right {
     margin-top: 0;
     text-align: center;
-  }
-
-  article p {
-    margin: .4em 0 .7em;
   }
 
   article p {
@@ -319,10 +299,6 @@ article p {
   .header-right {
     margin-top: 0;
     text-align: center;
-  }
-
-  article p {
-    margin: .4em 0 .7em;
   }
 
   article p {
