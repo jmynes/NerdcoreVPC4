@@ -116,6 +116,10 @@ aside {
   margin: 0 auto 2em;
 }
 
+.sub-right-grid h2{
+  margin-bottom: 0.5em;
+}
+
 .sub-right-grid p {
   color: #5E5E5E;
   line-height: 1.7em;
@@ -135,6 +139,7 @@ article p {
   font-size: .95em;
   margin: .5em 0 1.1em;
   text-align: justify;
+  margin-bottom: 3em;
 }
 
 /*---//End-sub----*/
