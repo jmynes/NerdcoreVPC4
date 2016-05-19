@@ -56,7 +56,6 @@ h2 {
 
 /*----start-header----*/
 header {
-  font-variant: small-caps;
   text-shadow: -1px 0 1px rgba(0,0,0,0.59);
   -webkit-text-shadow: -1px 0 1px rgba(0,0,0,0.59);
   -moz-text-shadow: -1px 0 1px rgba(0,0,0,0.59);
@@ -85,8 +84,6 @@ aside {
   float: right;
   width: 33%;
   text-align: center;
-  margin-top: 1%;
-  font-variant: small-caps;
 }
 
 .sub-right-grid {
