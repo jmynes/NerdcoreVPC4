@@ -56,10 +56,6 @@ h2 {
 
 /*----start-header----*/
 header {
-  background: url(img/cassettealt.png) no-repeat;
-  padding-bottom: 10%;
-  background-size: cover;
-  background-position: 5% 5%;
   font-variant: small-caps;
   text-shadow: -1px 0 1px rgba(0,0,0,0.59);
   -webkit-text-shadow: -1px 0 1px rgba(0,0,0,0.59);
@@ -68,8 +64,15 @@ header {
   color: #FFF;
 }
 
-/*----header-left----*/
-.header-left {
+.header-img {
+  background: url(img/cassettealt.png) no-repeat;
+  padding-bottom: 15%;
+  background-size: cover;
+  background-position: 5% 5%;
+}
+
+/*----header-right----*/
+.header-right {
   position: absolute;
   right: 0;
 }
@@ -77,19 +80,6 @@ header {
 .social-banner {
   height: 5vw;
   min-height: 32px;
-}
-
-/*---header-right----*/
-.header-right {
-  text-align: right;
-  margin: 0 auto;
-  white-space: nowrap;
-}
-
-.header-right-wrapper {
-  margin: 0 auto;
-  max-width: 0;
-  display: table;
 }
 /*----//End-header----*/
 
