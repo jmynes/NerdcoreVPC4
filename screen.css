@@ -47,13 +47,6 @@ h2 {
   font-size: 3em;
 }
 
-/*----start-wrap-----*/
-.wrap {
-  width: 75%;
-  margin: 0 auto;
-  margin-bottom: 60px;
-}
-
 /*----start-header----*/
 header {
   text-shadow: -1px 0 1px rgba(0,0,0,0.59);
@@ -69,6 +62,14 @@ header {
   background-size: cover;
   background-position: 5% 5%;
 }
+/*----end-header----*/
+
+/*----start-wrap-----*/
+.wrap {
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
 
 /*---start-sub----*/
 .sub {
@@ -78,12 +79,6 @@ header {
 .sub-left {
   float: left;
   width: 64%;
-}
-
-aside {
-  float: right;
-  width: 33%;
-  text-align: center;
 }
 
 .sub-right-grid {
@@ -102,6 +97,12 @@ aside {
   text-align: center;
 }
 
+aside {
+  float: right;
+  width: 33%;
+  text-align: center;
+}
+
 article h3 {
   font-size: 1.5em;
   font-weight: 700;
@@ -117,8 +118,8 @@ article p {
   margin-bottom: 10%;
 }
 
-/*---//End-sub----*/
-/*----//End-wrap-----*/
+/*---end-sub----*/
+/*----end-wrap-----*/
 
 /*----start-responsive design-----*/
 @media only screen and (max-width: 1440px) and (min-width: 1366px) {
@@ -179,7 +180,7 @@ article p {
   aside {
     float: none;
     width: 100%;
-  }/*---*/
+  }
 }
 
 @media only screen and (max-width: 640px) and (min-width: 480px) {
@@ -212,6 +213,10 @@ article p {
     font-size: .875em;
   }
 
+  article h3 {
+    font-size: 1.2em;
+  }
+
   .sub-left {
     float: none;
     width: 100%;
@@ -220,10 +225,6 @@ article p {
   aside {
     float: none;
     width: 100%;
-  }
-
-  article h3 {
-    font-size: 1.2em;
   }
 }
 
@@ -237,6 +238,14 @@ article p {
     font-size: .875em;
   }
 
+  article h3 {
+    font-size: 1.05em;
+  }
+
+  .sub {
+    margin-top: 1em;
+  }
+
   .sub-left {
     float: none;
     width: 100%;
@@ -245,14 +254,6 @@ article p {
   aside {
     float: none;
     width: 100%;
-  }
-
-  .sub {
-    margin-top: 1em;
-  }
-
-  article h3 {
-    font-size: 1.05em;
   }
 }
 
