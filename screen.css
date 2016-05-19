@@ -66,6 +66,7 @@ a: visited {
 
 h1 {
   font-size: 4em;
+  color: #000000;
   padding-top: 5px;
   width: 100%;
   text-align: center;
@@ -102,7 +103,7 @@ table,th,td {
 
 /*----start-header----*/
 .header {
-  background: url(img/images/djspockmckirk.jpg) no-repeat;
+  background: url(img/images/cassette.png) no-repeat;
   padding-bottom: 10vw;
   background-size: cover;
   background-position: 5% 5%;
