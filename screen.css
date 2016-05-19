@@ -125,11 +125,8 @@ aside {
 
 article h3 {
   font-size: 1.5em;
-  color: #2E2E2E;
-}
-
-article h3 span {
   font-weight: 700;
+  color: #2E2E2E;
 }
 
 article p {
