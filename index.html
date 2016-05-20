@@ -8,11 +8,34 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
     <link rel="stylesheet" href="screen.css" />
     <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+
+      <!-- https://w.soundcloud.com/player/api_playground.html -->
+      <!-- http://stackoverflow.com/questions/11479747/controlling-soundcloud-html5-widget-player-with-custom-buttons/11507857#11507857 -->
+
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+      <script src="http://w.soundcloud.com/player/api.js"></script>
+      <script>
+        $(document).ready(function() {
+          var widget = SC.Widget(document.getElementById('soundcloud_widget'));
+          widget.bind(SC.Widget.Events.READY, function() {
+            console.log('Ready...');
+          });
+          $('.toggle').click(function() {
+            widget.toggle();
+          });
+          $('.prev').click(function() {
+            widget.prev();
+          });
+          $('.next').click(function() {
+            widget.next();
+          });
+        });
+      </script>
   </head>
 
   <body>
     <header>
-      <div class ="header-img" title="Vocalist Producer Challenge 4"></div>
+      <div class="header-img" title="Vocalist Producer Challenge 4"></div>
     </header>
 
     <main>
@@ -20,8 +43,21 @@
         <div class="sub">
           <div class="sub-left">
             <article>
-              <h1>VPC4 Round 1:</h1>
-              <h3>Challenge Here</h3>
+              <h1>VPC4 Round 1: Subject Here</h1>
+
+              <iframe id="soundcloud_widget" src="http://w.soundcloud.com/player/?url=url=https%3A//api.soundcloud.com/playlists/42103331&amp;auto_play=false&amp;hide_related=true&amp show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+              
+
+
+              <div class="shittyradio">
+                <dl class="actionButtons">
+                <br><br><br><br><br><br><br><br><br>
+                  <dd><button class="toggle">⏯</button></dd>   <!-- toggle(); -->
+                  <dd><button class="prev">⏮</button></dd>       <!-- prev(); -->
+                  <dd><button class="next">⏭</button></dd>       <!-- next(); -->
+                </dl>
+              </div>
+
               <p>Lorem ipsum dolor sit amet, mea perfecto signiferumque ne, ex justo pericula scribentur mei. Nam in probo ridens inimicus, cu sit placerat perfecto tacimates. Cu esse aliquando eam. Mundi vivendo splendide mei ne, ad tantas scripta labitur qui.
 
               Sed et viris nostro, natum scripta nostrum ea pri, ne usu aliquam mnesarchum. Ut aeterno luptatum sea, ea nec omnis mazim clita. Ea sed tamquam gubergren sadipscing, duis aeterno iudicabit vel ut. Ut debet eligendi comprehensam pro, atqui populo facilisis eu nam, est elit delectus ex. In expetenda rationibus sed.
