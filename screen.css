@@ -127,7 +127,7 @@ article p {
   line-height: 1.7em;
   font-size: .95em;
   margin: .5em 0 1.1em;
-  text-align: justify;
+  /* text-align: justify; */
   margin-bottom: 3em;
 }
 
@@ -135,7 +135,7 @@ article ul {
   margin-top: -1.5em;
   list-style: disc;
   color: #5E5E5E;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 article li {
@@ -185,6 +185,8 @@ sup {
 
 .rules h2 {
   font-size: 1.8em;
+  border-style: solid;
+  border-bottom: thin solid #5E5E5E;
 }
 
 .rules h3 {
