@@ -150,6 +150,7 @@ aside li {
   margin-top: 1em;
 }
 
+/* https://gist.github.com/unruthless/413930 */
 sup {
   color: #FF3333;
   font-size: 75%;
