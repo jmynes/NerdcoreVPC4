@@ -131,6 +131,17 @@ article p {
   margin-bottom: 3em;
 }
 
+article ul {
+  margin-top: -1.5em;
+  list-style: disc;
+  color: #5E5E5E;
+  text-align: justify;
+}
+
+article li {
+  line-height: 2em;
+}
+
 iframe {
   width: 100%;
 }
@@ -146,7 +157,6 @@ aside li {
 .faq h2 {
   font-size: 1.8em;
 }
-
 .rules h2 {
   font-size: 1.8em;
 }
