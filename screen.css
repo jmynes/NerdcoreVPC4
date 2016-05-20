@@ -135,6 +135,10 @@ iframe {
   width: 100%;
 }
 
+aside li {
+  margin-top: 1em;
+}
+
 /*---end-sub----*/
 /*----end-wrap-----*/
 
@@ -142,7 +146,6 @@ iframe {
 .faq h2 {
   font-size: 1.8em;
 }
-
 /*----end-faq-----*/
 
 
