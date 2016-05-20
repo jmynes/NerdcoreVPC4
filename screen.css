@@ -151,8 +151,12 @@ aside li {
 }
 
 sup {
-  font-size: smaller;
   color: #FF3333;
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
 }
 
 .asterisks ul {
