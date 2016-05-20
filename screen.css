@@ -65,9 +65,10 @@ header {
 
 .header-img {
   background: url(img/cassettealt2.png) no-repeat;
-  padding-bottom: 15%;
+  height: 19vw;
   background-size: cover;
   background-position: 5% 5%;
+  margin-bottom: 2.5%;
 }
 /*----end-header----*/
 
@@ -80,7 +81,7 @@ header {
 
 /*---start-sub----*/
 .sub {
-  margin-top: 3em;
+  
 }
 
 .sub-left {
