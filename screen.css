@@ -150,6 +150,18 @@ aside li {
   margin-top: 1em;
 }
 
+sup {
+  font-size: smaller;
+  color: #FF3333;
+}
+
+.asterisks ul {
+  list-style: none;
+  margin-top: 0.5em; 
+  line-height: 1em;
+  background-color: #ddd;
+}
+
 /*---end-sub----*/
 /*----end-wrap-----*/
 
