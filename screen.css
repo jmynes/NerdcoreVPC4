@@ -142,11 +142,15 @@ aside li {
 /*---end-sub----*/
 /*----end-wrap-----*/
 
-/*----start-faq-----*/
+/*----start-specifics-----*/
 .faq h2 {
   font-size: 1.8em;
 }
-/*----end-faq-----*/
+
+.rules h2 {
+  font-size: 1.8em;
+}
+/*----end-specifics-----*/
 
 
 /*----start-responsive design-----*/
