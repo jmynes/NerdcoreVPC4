@@ -213,6 +213,24 @@ FAQ SPECIFIC STYLES START
 These are styles that are used on faq.html
 ==========================================================================
 */
+.home section {
+  margin-top: 0.2em;
+}
+/*
+==========================================================================
+FAQ SPECIFIC STYLES END
+
+These are styles that are used on faq.html
+==========================================================================
+*/
+
+/*
+==========================================================================
+FAQ SPECIFIC STYLES START 
+
+These are styles that are used on faq.html
+==========================================================================
+*/
 
 .faq h2 {
   font-size: 1.8em;
