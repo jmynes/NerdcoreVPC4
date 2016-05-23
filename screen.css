@@ -246,6 +246,19 @@ These are styles that are used on most or all pages
 ==========================================================================
 */
 
+.judges h2 {
+  font-size: 1.8em;
+  padding-bottom: 0.3em; /* For border */
+  border-style: solid;
+  border-bottom: thin solid #5E5E5E;
+}
+
+.judges h2 a {
+  text-decoration: none;
+}
+.judges article h1 {
+  margin-bottom: 0.5em;
+}
 
 /*
 ==========================================================================
