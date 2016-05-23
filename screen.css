@@ -216,6 +216,7 @@ These are styles that are used on one or some pages
 
 .faq h2 {
   font-size: 1.8em;
+  margin-bottom: 1em;
 }
 
 .faq article h1 {
