@@ -131,6 +131,15 @@ article p {
   margin-bottom: 3em;
 }
 
+section {
+  color: #5E5E5E;
+  line-height: 1.7em;
+  margin: .5em 0 1.1em;
+  /* text-align: justify; */
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
 article ul {
   margin-top: -1.5em;
   list-style: disc;
@@ -217,6 +226,10 @@ sup {
   article p {
     line-height: 1.5em;
   }
+
+  section {
+    line-height: 1.5em;
+  }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
@@ -225,6 +238,10 @@ sup {
   }
 
   article p {
+    line-height: 1.5em;
+  }
+
+  section p {
     line-height: 1.5em;
   }
 
@@ -244,6 +261,14 @@ sup {
   }
 
   article p {
+    line-height: 1.5em;
+  }
+
+  section {
+    line-height: 1.5em;
+  }
+
+  section {
     line-height: 1.5em;
   }
 
@@ -267,6 +292,10 @@ sup {
     line-height: 1.5em;
   }
 
+  section {
+    line-height: 1.5em;
+  }
+
   .sub-left {
     float: none;
     width: 100%;
@@ -284,6 +313,11 @@ sup {
   }
 
   article p {
+    line-height: 1.5em;
+    font-size: .875em;
+  }
+
+  section {
     line-height: 1.5em;
     font-size: .875em;
   }
@@ -309,6 +343,11 @@ sup {
   }
 
   article p {
+    line-height: 1.5em;
+    font-size: .875em;
+  }
+
+  section {
     line-height: 1.5em;
     font-size: .875em;
   }
