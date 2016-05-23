@@ -165,6 +165,11 @@ article li {
   line-height: 2em;
 }
 
+section h2 {
+  color: #000000;
+  margin-bottom: 2em;
+}
+
 iframe {
   width: 100%;
 }
@@ -240,8 +245,14 @@ These are styles that are used on one or some pages
 ==========================================================================
 */
 
+/*
+==========================================================================
+MEDIA QUERIES START
 
-/*----start-responsive design-----*/
+For a responsive web page
+==========================================================================
+*/
+
 @media only screen and (max-width: 1440px) and (min-width: 1366px) {
   .wrap {
     width: 78%;
@@ -410,3 +421,11 @@ These are styles that are used on one or some pages
 .clear {
   clear: both;
 }
+
+/*
+==========================================================================
+MEDIA QUERIES END
+
+For a responsive web page
+==========================================================================
+*/
