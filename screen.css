@@ -422,6 +422,10 @@ For a responsive web page
     float: none;
     width: 100%;
   }
+
+  .judges img { /* Mobile full-size image */
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 640px) and (min-width: 480px) {
@@ -444,6 +448,10 @@ For a responsive web page
 
   aside {
     float: none;
+    width: 100%;
+  }
+
+  .judges img { /* Mobile full-size image */
     width: 100%;
   }
 }
@@ -474,6 +482,10 @@ For a responsive web page
 
   aside {
     float: none;
+    width: 100%;
+  }
+
+  .judges img { /* Mobile full-size image */
     width: 100%;
   }
 }
@@ -508,6 +520,10 @@ For a responsive web page
 
   aside {
     float: none;
+    width: 100%;
+  }
+  
+  .judges img { /* Mobile full-size image */
     width: 100%;
   }
 }
