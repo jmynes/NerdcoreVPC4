@@ -228,6 +228,7 @@ These are styles that are used on one or some pages
 
 .rules h2 {
   font-size: 1.8em;
+  padding-bottom: 0.3em; /* For border */
   border-style: solid;
   border-bottom: thin solid #5E5E5E;
 }
