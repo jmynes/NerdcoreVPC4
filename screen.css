@@ -139,10 +139,10 @@ article h3 {
 article p {
   color: #5E5E5E;
   line-height: 1.7em;
-  font-size: .95em;
+  font-size: 1em;
   margin: .5em 0 1.1em;
   /* text-align: justify; */
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 }
 
 section {
@@ -384,10 +384,6 @@ For a responsive web page
   }
 
   article p {
-    line-height: 1.5em;
-  }
-
-  section {
     line-height: 1.5em;
   }
 
