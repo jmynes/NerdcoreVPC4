@@ -156,7 +156,7 @@ section {
 
 article ul {
   margin-top: -1.5em;
-  list-style: disc;
+  list-style: disc inside;
   color: #5E5E5E;
   /* text-align: justify; */
 }
