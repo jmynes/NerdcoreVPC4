@@ -208,9 +208,9 @@ These are styles that are used on most or all pages
 
 /*
 ==========================================================================
-SPECIFIC STYLES START 
+FAQ SPECIFIC STYLES START 
 
-These are styles that are used on one or some pages
+These are styles that are used on faq.html
 ==========================================================================
 */
 
@@ -222,6 +222,22 @@ These are styles that are used on one or some pages
 .faq article h1 {
   margin-bottom: 0.5em;
 }
+
+/*
+==========================================================================
+FAQ SPECIFIC STYLES END
+
+These are styles that are used on faq.html
+==========================================================================
+*/
+
+/*
+==========================================================================
+RULES SPECIFIC STYLES START 
+
+These are styles that are used on rules.html
+==========================================================================
+*/
 
 .rules article h1 {
   margin-bottom: 0.5em;
@@ -281,9 +297,9 @@ These are styles that are used on one or some pages
 
 /*
 ==========================================================================
-SPECIFIC STYLES END
+RULES SPECIFIC STYLES END
 
-These are styles that are used on one or some pages
+These are styles that are used on rules.html
 ==========================================================================
 */
 
