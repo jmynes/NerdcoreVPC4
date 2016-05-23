@@ -238,6 +238,45 @@ These are styles that are used on one or some pages
   font-weight: 400;
 }
 
+.rules section {
+  /* background-color: #CCC; */
+}
+
+.rules section#one {
+  border-left : 0.4em solid #C60725;
+  padding-left: 0.5em;
+}
+
+.rules section#two {
+  border-left : 0.4em solid #C94026;
+  padding-left: 0.5em;
+}
+
+.rules section#three {
+  border-left : 0.4em solid #D67630;
+  padding-left: 0.5em;
+}
+
+.rules section#four {
+  border-left : 0.4em solid #D79A1E;
+  padding-left: 0.5em;
+}
+
+.rules section#five {
+  border-left : 0.4em solid #A7B430;
+  padding-left: 0.5em;
+}
+
+.rules section#six {
+  border-left : 0.4em solid #7AA02C;
+  padding-left: 0.5em;
+}
+
+.rules section#seven {
+  border-left : 0.4em solid #217538;
+  padding-left: 0.5em;
+}
+
 /*
 ==========================================================================
 SPECIFIC STYLES END
