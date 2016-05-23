@@ -216,13 +216,6 @@ These are styles that are used on index.html
 .home section {
   margin-top: 0.2em;
 }
-/*
-==========================================================================
-HOME SPECIFIC STYLES END
-
-These are styles that are used on index.html
-==========================================================================
-*/
 
 /* Border colors are approximated from the banner image */
 .home section#one {
@@ -259,6 +252,14 @@ These are styles that are used on index.html
   border-left : 0.4em solid #0B4994; /* Blue */
   padding-left: 0.5em;
 }
+
+/*
+==========================================================================
+HOME SPECIFIC STYLES END
+
+These are styles that are used on index.html
+==========================================================================
+*/
 
 /*
 ==========================================================================
