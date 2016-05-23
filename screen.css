@@ -246,19 +246,41 @@ These are styles that are used on most or all pages
 ==========================================================================
 */
 
+/*
+==========================================================================
+JUDGES SPECIFIC STYLES START 
+
+These are styles that are used on judges.html
+==========================================================================
+*/
+
+.judges article h1 {
+  margin-bottom: 0.5em;
+}
+
 .judges h2 {
   font-size: 1.8em;
   padding-bottom: 0.3em; /* For border */
   border-style: solid;
   border-bottom: thin solid #5E5E5E;
+  margin-bottom: 1em; /* Fix for some (global?) style */
 }
 
 .judges h2 a {
   text-decoration: none;
 }
-.judges article h1 {
-  margin-bottom: 0.5em;
+
+.judges img {
+  width: 60%;
 }
+
+/*
+==========================================================================
+JUDGES SPECIFIC STYLES END
+
+These are styles that are used on judges.html
+==========================================================================
+*/
 
 /*
 ==========================================================================
