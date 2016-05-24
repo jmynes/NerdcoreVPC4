@@ -260,12 +260,11 @@ These are styles that are used on judges.html
 
 .judges h2 {
   font-size: 1.8em;
-
+  margin-bottom: 1em; // Fix for some (global?) style 
   /* // For border
   padding-bottom: 0.3em;
   border-style: solid;
   border-bottom: thin solid #5E5E5E;
-  margin-bottom: 1em; // Fix for some (global?) style 
   */
 }
 
