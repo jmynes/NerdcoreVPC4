@@ -130,7 +130,13 @@ aside {
   text-align: center;
 }
 
-aside a {
+aside a:link {
+  color: #2E2E2E;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+aside a:visited {
   color: #2E2E2E;
   font-weight: 700;
   text-decoration: none;
