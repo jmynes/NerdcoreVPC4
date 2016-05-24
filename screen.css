@@ -109,8 +109,8 @@ header {
 }
 
 .sub-right-grid {
-  width: 194px;
-  margin: 0 auto 2em;
+  /* width: 194px */;
+  margin: 0 auto 3em;
 }
 
 .sub-right-grid h2{
