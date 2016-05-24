@@ -260,10 +260,13 @@ These are styles that are used on judges.html
 
 .judges h2 {
   font-size: 1.8em;
-  padding-bottom: 0.3em; /* For border */
+
+  /* // For border
+  padding-bottom: 0.3em;
   border-style: solid;
   border-bottom: thin solid #5E5E5E;
-  margin-bottom: 1em; /* Fix for some (global?) style */
+  margin-bottom: 1em; // Fix for some (global?) style 
+  */
 }
 
 .judges h2 a {
@@ -321,9 +324,12 @@ These are styles that are used on rules.html
 
 .rules h2 {
   font-size: 1.8em;
-  padding-bottom: 0.3em; /* For border */
+   
+  /* // For border
+  padding-bottom: 0.3em;
   border-style: solid;
   border-bottom: thin solid #5E5E5E;
+  */
 }
 
 .rules h3 {
@@ -522,7 +528,7 @@ For a responsive web page
     float: none;
     width: 100%;
   }
-  
+
   .judges img { /* Mobile full-size image */
     width: 100%;
   }
