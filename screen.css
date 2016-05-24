@@ -436,7 +436,7 @@ For a responsive web page
     width: 100%;
   }
 
-  .judges img { /* Mobile full-size image */
+  .judges section img { /* Mobile full-size image */
     width: 100%;
   }
 }
@@ -464,7 +464,7 @@ For a responsive web page
     width: 100%;
   }
 
-  .judges img { /* Mobile full-size image */
+  .judges section img { /* Mobile full-size image */
     width: 100%;
   }
 }
@@ -498,7 +498,7 @@ For a responsive web page
     width: 100%;
   }
 
-  .judges img { /* Mobile full-size image */
+  .judges section img { /* Mobile full-size image */
     width: 100%;
   }
 }
@@ -536,7 +536,7 @@ For a responsive web page
     width: 100%;
   }
 
-  .judges img { /* Mobile full-size image */
+  .judges section img { /* Mobile full-size image */
     width: 100%;
   }
 }
