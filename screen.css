@@ -124,6 +124,11 @@ header {
   text-align: center;
 }
 
+.sub-right-grid img {
+  display: inline-block;
+  margin: 1em;
+}
+
 aside {
   float: right;
   width: 33%;
@@ -280,7 +285,7 @@ These are styles that are used on judges.html
   */
 }
 
-.judges img {
+.judges section img {
   width: 60%;
 }
 
