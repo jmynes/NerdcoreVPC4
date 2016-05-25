@@ -369,6 +369,11 @@ These are styles that are used on credits.html
   color: #000000;
 }
 
+.credits img#QR {
+  display: block;
+  width: 30%;
+}
+
 /*
 ==========================================================================
 CREDITS SPECIFIC STYLES END 
