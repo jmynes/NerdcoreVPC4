@@ -264,7 +264,7 @@ footer {
   background: #222426;
 }
 
-footer p, a:link, a:visited {
+footer p, footer a:link, footer a:visited {
   color: white;
   vertical-align: middle;
 }
