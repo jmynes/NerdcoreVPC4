@@ -335,6 +335,43 @@ These are styles that are used on judges.html
 
 /*
 ==========================================================================
+CREDITS SPECIFIC STYLES START 
+
+These are styles that are used on credits.html
+==========================================================================
+*/
+
+.credits article h1 {
+  margin-bottom: 0.5em;
+}
+
+.credits h2 {
+  font-size: 1.8em;
+  margin-bottom: 1em; /* Fix for some (global?) style  */
+  
+  /* For border */
+  /* 
+  padding-bottom: 0.3em;
+  border-style: solid;
+  border-bottom: thin solid #5E5E5E;
+  */
+}
+
+.credits section img {
+  width: 60%;
+}
+
+/*
+==========================================================================
+CREDITS SPECIFIC STYLES END 
+
+These are styles that are used on credits.html
+==========================================================================
+*/
+
+
+/*
+==========================================================================
 FAQ SPECIFIC STYLES START 
 
 These are styles that are used on faq.html
