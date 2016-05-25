@@ -266,6 +266,7 @@ footer {
 
 footer p, a:link, a:visited {
   color: white;
+  vertical-align: middle;
 }
 
 footer img {
