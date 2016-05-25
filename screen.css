@@ -339,17 +339,17 @@ These are styles that are used on judges.html
 
 /*
 ==========================================================================
-CREDITS SPECIFIC STYLES START 
+TEAM SPECIFIC STYLES START 
 
 These are styles that are used on credits.html
 ==========================================================================
 */
 
-.credits article h1 {
+.team article h1 {
   margin-bottom: 0.5em;
 }
 
-.credits h2 {
+.team h2 {
   font-size: 1.8em;
   margin-bottom: 1em; /* Fix for some (global?) style  */
   
@@ -361,15 +361,15 @@ These are styles that are used on credits.html
   */
 }
 
-.credits section img {
+.team section img {
   width: 60%;
 }
 
-.credits article a:visited {
+.team article a:visited {
   color: #000000;
 }
 
-.credits img#QR {
+.team img#QR {
   display: block;
   width: 30%;
   margin-top: 1em;
