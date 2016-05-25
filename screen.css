@@ -252,6 +252,39 @@ sup {
   background-color: #ddd;
 }
 
+/*----start-footer----*/
+footer {
+  border-top: 4px solid #2E2E2E;
+  border-bottom: 4px solid #2E2E2E;
+  bottom: 0;
+  width: 100%;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #868686;
+  background: #222426;
+}
+
+footer p, a:link, a:visited {
+  color: white;
+}
+
+footer img {
+  height: 1em;
+  vertical-align: middle;
+}
+
+.footerWrap {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.footer-right {
+  float: right;
+}
+
+
+/*----//End-footer----*/
+
 /*---end-sub----*/
 /*----end-wrap-----*/
 
