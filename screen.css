@@ -544,7 +544,7 @@ Note: Redesigning this to not work based on px might be smart.
     width: 100%;
   }
 
-  .judges section img { /* Mobile full-size image */
+  .judges section img, .team section img { /* Mobile full-size image */
     width: 100%;
   }
 
@@ -588,7 +588,7 @@ Note: Redesigning this to not work based on px might be smart.
     width: 100%;
   }
 
-  .judges section img { /* Mobile full-size image */
+  .judges section img, .team section img { /* Mobile full-size image */
     width: 100%;
   }
 
@@ -638,7 +638,7 @@ Note: Redesigning this to not work based on px might be smart.
     width: 100%;
   }
 
-  .judges section img { /* Mobile full-size image */
+  .judges section img, .team section img { /* Mobile full-size image */
     width: 100%;
   }
 
@@ -692,7 +692,7 @@ Note: Redesigning this to not work based on px might be smart.
     width: 100%;
   }
 
-  .judges section img { /* Mobile full-size image */
+  .judges section img, .team section img { /* Mobile full-size image */
     width: 100%;
   }
 
