@@ -77,6 +77,7 @@
               <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/97120279&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
               <section id="two">
+                <div class="rw-ui-container" data-title="example 1"></div>
                 Lorem ipsum dolor sit amet, mea perfecto signiferumque ne, ex justo pericula scribentur mei. Nam in probo ridens inimicus, cu sit placerat perfecto tacimates. Cu esse aliquando eam. Mundi vivendo splendide mei ne, ad tantas scripta labitur qui.
 
                 Sed et viris nostro, natum scripta nostrum ea pri, ne usu aliquam mnesarchum. Ut aeterno luptatum sea, ea nec omnis mazim clita. Ea sed tamquam gubergren sadipscing, duis aeterno iudicabit vel ut. Ut debet eligendi comprehensam pro, atqui populo facilisis eu nam, est elit delectus ex. In expetenda rationibus sed.
@@ -93,6 +94,7 @@
               <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/44589267&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
               <section id="three">
+                <div class="rw-ui-container" data-title="example 2"></div>
                 Lorem ipsum dolor sit amet, mea perfecto signiferumque ne, ex justo pericula scribentur mei. Nam in probo ridens inimicus, cu sit placerat perfecto tacimates. Cu esse aliquando eam. Mundi vivendo splendide mei ne, ad tantas scripta labitur qui.
 
                 Sed et viris nostro, natum scripta nostrum ea pri, ne usu aliquam mnesarchum. Ut aeterno luptatum sea, ea nec omnis mazim clita. Ea sed tamquam gubergren sadipscing, duis aeterno iudicabit vel ut. Ut debet eligendi comprehensam pro, atqui populo facilisis eu nam, est elit delectus ex. In expetenda rationibus sed.
@@ -109,6 +111,7 @@
               <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/119979536&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
               
               <section id="four">
+                <div class="rw-ui-container" data-title="example 3"></div>
                 Lorem ipsum dolor sit amet, mea perfecto signiferumque ne, ex justo pericula scribentur mei. Nam in probo ridens inimicus, cu sit placerat perfecto tacimates. Cu esse aliquando eam. Mundi vivendo splendide mei ne, ad tantas scripta labitur qui.
 
                 Sed et viris nostro, natum scripta nostrum ea pri, ne usu aliquam mnesarchum. Ut aeterno luptatum sea, ea nec omnis mazim clita. Ea sed tamquam gubergren sadipscing, duis aeterno iudicabit vel ut. Ut debet eligendi comprehensam pro, atqui populo facilisis eu nam, est elit delectus ex. In expetenda rationibus sed.
@@ -166,6 +169,44 @@
         <div class="clear"></div>
       </div>
     </footer>
+
+    <!-- Rating Widget http://rating-widget.com/get/rating/jquery/#editor -->
+    <script type="text/javascript">(function(d, t, e, m){
+      
+      // Async Rating-Widget initialization.
+      window.RW_Async_Init = function(){
+                
+        RW.init({
+          huid: "316130",
+          uid: "4369aada592254fa4cf348af18df7b49",
+          source: "website",
+          options: {
+            "advanced": {
+              "star": {
+                "stars": 10
+              }
+            },
+            "size": "large",
+            "style": "payment_coin",
+            "isDummy": false
+          } 
+        });
+        RW.render();
+      };
+
+      // Append Rating-Widget JavaScript library.
+      var rw, s = d.getElementsByTagName(e)[0], id = "rw-js",
+        l = d.location, ck = "Y" + t.getFullYear() + 
+        "M" + t.getMonth() + "D" + t.getDate(), p = l.protocol,
+        f = ((l.search.indexOf("DBG=") > -1) ? "" : ".min"),
+        a = ("https:" == p ? "secure." + m + "js/" : "js." + m);
+      if (d.getElementById(id)) return;              
+      rw = d.createElement(e);
+      rw.id = id; rw.async = true; rw.type = "text/javascript";
+      rw.src = p + "//" + a + "external" + f + ".js?ck=" + ck;
+      s.parentNode.insertBefore(rw, s);
+      }(document, new Date(), "script", "rating-widget.com/"));
+    </script>
   </body>
 </html>
 

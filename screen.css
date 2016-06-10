@@ -207,6 +207,12 @@ iframe#bandcamp {
   overflow: hidden;
 }
 
+/* Rating Widget:; http://rating-widget.com/get/rating/jquery/#editor */
+.rw-ui-container {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
 aside li {
   margin-top: 1em;
 }
