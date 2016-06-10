@@ -213,6 +213,10 @@ iframe#bandcamp {
   margin-bottom: 1em;
 }
 
+.asterisks sup {
+  margin-right: 0.5em;
+}
+
 aside li {
   margin-top: 1em;
 }
