@@ -178,6 +178,12 @@ article ul {
   /* text-align: justify; */
 }
 
+article ol {
+  list-style-position: inside; /* Would have expected this to work, but doesn't seem to. */
+  list-style: decimal;
+  margin-left: 1em;
+}
+
 article li {
   line-height: 2em;
 }
