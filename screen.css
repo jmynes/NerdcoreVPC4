@@ -331,6 +331,27 @@ These are styles that are used on most or all pages
 
 /*
 ==========================================================================
+ROUND SPECIFIC STYLES START 
+
+These are styles that are used on round pages
+==========================================================================
+*/
+
+h3#heading {
+  margin-bottom: 1em;
+}
+
+/*
+==========================================================================
+ROUND SPECIFIC STYLES END
+
+These are styles that are used on round pages
+==========================================================================
+*/
+
+
+/*
+==========================================================================
 JUDGES SPECIFIC STYLES START 
 
 These are styles that are used on judges.html
