@@ -462,7 +462,8 @@ These are styles that are used on credits.html
 }
 
 .teams section img {
-  margin-bottom: 1em;
+  float: left;
+  margin-right: 2em;
 }
 
 /*
