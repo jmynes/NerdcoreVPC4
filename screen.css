@@ -444,6 +444,30 @@ These are styles that are used on credits.html
 ==========================================================================
 */
 
+/*
+==========================================================================
+TEAMS SPECIFIC STYLES START 
+
+These are styles that are used on credits.html
+==========================================================================
+*/
+
+.teams article h1 {
+  margin-bottom: 0.5em;
+}
+
+.teams h2 {
+  font-size: 2em;
+  margin-bottom: 1em; /* Fix for some (global?) style  */
+}
+
+/*
+==========================================================================
+TEAMS SPECIFIC STYLES END 
+
+These are styles that are used on credits.html
+==========================================================================
+*/
 
 /*
 ==========================================================================
